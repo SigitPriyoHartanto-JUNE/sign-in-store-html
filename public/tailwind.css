@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-alegreya {
+  font-family: "Alegreya", serif;
+}
+
+.auth-background {
+  background-color: #4424a7;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-background .top-left {
+  position: absolute;
+  top: 0px;
+  left: -15px;
+}
+
+.auth-background .bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: -10px;
+}
+
+.login-background {
+  background-color: #ecf0f4;
+}
+
+.bg-signin {
+  background-color: #77c5fd;
+}
